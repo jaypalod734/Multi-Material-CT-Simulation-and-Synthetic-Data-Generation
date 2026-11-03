@@ -1,0 +1,124 @@
+{
+  "materials": {
+    "Aluminium": {
+      "type": "element",
+      "formula": "Al",
+      "density": 2.70,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "Standard lightweight structural metal"
+    },
+    "Copper": {
+      "type": "element",
+      "formula": "Cu",
+      "density": 8.96,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "High attenuation, dense metal"
+    },
+    "Iron": {
+      "type": "element",
+      "formula": "Fe",
+      "density": 7.87,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "Common ferromagnetic metal"
+    },
+    "Titanium": {
+      "type": "element",
+      "formula": "Ti",
+      "density": 4.51,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "Biocompatible medical implant metal"
+    },
+    "Tungsten": {
+      "type": "element",
+      "formula": "W",
+      "density": 19.30,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "Heavy metal, used in X-ray targets and collimators"
+    },
+    "Lead": {
+      "type": "element",
+      "formula": "Pb",
+      "density": 11.34,
+      "density_unit": "g/cm3",
+      "category": "Metal",
+      "description": "Radiation shielding material"
+    },
+    "Carbon": {
+      "type": "element",
+      "formula": "C",
+      "density": 1.80,
+      "density_unit": "g/cm3",
+      "category": "Non-metal",
+      "description": "Low-Z carbonaceous material"
+    },
+    "Silicon": {
+      "type": "element",
+      "formula": "Si",
+      "density": 2.33,
+      "density_unit": "g/cm3",
+      "category": "Semiconductor",
+      "description": "Semiconductor substrate"
+    },
+    "Water": {
+      "type": "compound",
+      "formula": "H2O",
+      "density": 1.00,
+      "density_unit": "g/cm3",
+      "category": "Fluid",
+      "description": "Standard reference fluid for CT (0 HU)"
+    },
+    "PMMA (Acrylic)": {
+      "type": "compound",
+      "formula": "C5H8O2",
+      "density": 1.19,
+      "density_unit": "g/cm3",
+      "category": "Polymer",
+      "description": "Polymethyl methacrylate, standard phantom plastic"
+    },
+    "Polyethylene (PE)": {
+      "type": "compound",
+      "formula": "C2H4",
+      "density": 0.94,
+      "density_unit": "g/cm3",
+      "category": "Polymer",
+      "description": "Low-density polymer"
+    },
+    "PTFE (Teflon)": {
+      "type": "compound",
+      "formula": "C2F4",
+      "density": 2.20,
+      "density_unit": "g/cm3",
+      "category": "Polymer",
+      "description": "Fluoropolymer, bone-equivalent contrast"
+    },
+    "Cortical Bone": {
+      "type": "compound",
+      "formula": "Ca5P3O13H",
+      "density": 1.92,
+      "density_unit": "g/cm3",
+      "category": "Biological",
+      "description": "Hydroxyapatite / dense human cortical bone"
+    },
+    "Adipose Tissue (Fat)": {
+      "type": "compound",
+      "formula": "C55H104O6",
+      "density": 0.92,
+      "density_unit": "g/cm3",
+      "category": "Biological",
+      "description": "Human adipose tissue surrogate"
+    },
+    "Air": {
+      "type": "compound",
+      "formula": "N2",
+      "density": 0.0012,
+      "density_unit": "g/cm3",
+      "category": "Gas",
+      "description": "Dry atmospheric air (-1000 HU)"
+    }
+  }
+}

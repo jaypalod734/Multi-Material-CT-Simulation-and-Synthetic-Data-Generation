@@ -1,0 +1,6 @@
+gvxrPython3
+numpy
+tifffile
+matplotlib
+streamlit
+Pillow
