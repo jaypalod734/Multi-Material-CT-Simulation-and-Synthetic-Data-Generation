@@ -1,0 +1,213 @@
+{
+  "timestamp": "2026-10-23T00:21:48.377268",
+  "configuration": {
+    "output_dir": "D:\\CT_Project\\output\\multi_cylinder",
+    "parts": [
+      {
+        "label": "PMMA_Matrix",
+        "stl_path": "D:\\CT_Project\\sample_stls\\matrix_cylinder.stl",
+        "material_type": "compound",
+        "material_identifier": "C5H8O2",
+        "density": 1.19,
+        "unit_length": "mm",
+        "center_mesh": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      },
+      {
+        "label": "Copper_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_copper_rod.stl",
+        "material_type": "element",
+        "material_identifier": "Cu",
+        "density": 8.96,
+        "unit_length": "mm",
+        "center_mesh": false,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      },
+      {
+        "label": "Aluminium_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_aluminium_rod.stl",
+        "material_type": "element",
+        "material_identifier": "Al",
+        "density": 2.7,
+        "unit_length": "mm",
+        "center_mesh": false,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      },
+      {
+        "label": "Titanium_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_titanium_core.stl",
+        "material_type": "element",
+        "material_identifier": "Ti",
+        "density": 4.51,
+        "unit_length": "mm",
+        "center_mesh": false,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      }
+    ],
+    "source": {
+      "position": [
+        -40.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "source_shape": "point",
+      "beam_type": "monochromatic",
+      "mono_energy_kev": 80.0,
+      "mono_photon_count": 1000,
+      "poly_tube_voltage_kv": 100.0,
+      "poly_energy_bins": 20,
+      "poly_min_energy_kev": 20.0,
+      "poly_anode_material": "W",
+      "poly_total_photons": 40000,
+      "filters": []
+    },
+    "detector": {
+      "position": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "up_vector": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "rows": 256,
+      "cols": 256,
+      "pixel_size_x": 0.4,
+      "pixel_size_y": 0.4,
+      "pixel_size_unit": "mm"
+    },
+    "acquisition": {
+      "num_projections": 180,
+      "total_angle_deg": 360.0,
+      "rotation_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output_format": "uint16",
+      "sinogram_row": null,
+      "apply_poisson_noise": false,
+      "photon_noise_scale": 30000.0
+    }
+  },
+  "execution_summary": {
+    "duration_seconds": 11.895,
+    "projections_per_second": 15.13,
+    "num_projections": 180,
+    "sinogram_slice_row": 128,
+    "beam_type": "monochromatic",
+    "energy_bins": [
+      [
+        80.0,
+        1000
+      ]
+    ],
+    "poisson_noise_enabled": false,
+    "loaded_mesh_parts": [
+      {
+        "label": "PMMA_Matrix",
+        "stl_path": "D:\\CT_Project\\sample_stls\\matrix_cylinder.stl",
+        "material_type": "compound",
+        "material": "C5H8O2",
+        "density": 1.19,
+        "bounding_box_cm": [
+          -2.0,
+          -2.0,
+          -1.5,
+          2.0,
+          2.0,
+          1.5
+        ]
+      },
+      {
+        "label": "Copper_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_copper_rod.stl",
+        "material_type": "element",
+        "material": "Cu",
+        "density": 8.96,
+        "bounding_box_cm": [
+          0.6499999761581421,
+          -0.3499999940395355,
+          -1.399999976158142,
+          1.350000023841858,
+          0.3499999940395355,
+          1.399999976158142
+        ]
+      },
+      {
+        "label": "Aluminium_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_aluminium_rod.stl",
+        "material_type": "element",
+        "material": "Al",
+        "density": 2.7,
+        "bounding_box_cm": [
+          -1.350000023841858,
+          -0.3499999940395355,
+          -1.399999976158142,
+          -0.6499999761581421,
+          0.3499999940395355,
+          1.399999976158142
+        ]
+      },
+      {
+        "label": "Titanium_Insert",
+        "stl_path": "D:\\CT_Project\\sample_stls\\insert_titanium_core.stl",
+        "material_type": "element",
+        "material": "Ti",
+        "density": 4.51,
+        "bounding_box_cm": [
+          -0.25,
+          0.75,
+          -1.399999976158142,
+          0.25,
+          1.25,
+          1.399999976158142
+        ]
+      }
+    ]
+  }
+}

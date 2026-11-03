@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-10-27T09:13:02.892325",
+  "configuration": {
+    "output_dir": "D:\\CT_Project\\output\\Welsh_Dragon_Poly",
+    "parts": [
+      {
+        "label": "Welsh_Dragon",
+        "stl_path": "D:\\Anaconda\\envs\\ct-project\\Lib\\site-packages\\gvxrPython3\\_gvxrPython3\\welsh-dragon-small.stl",
+        "material_type": "element",
+        "material_identifier": "Al",
+        "density": 2.7,
+        "unit_length": "mm",
+        "center_mesh": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      }
+    ],
+    "source": {
+      "position": [
+        -30.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "source_shape": "point",
+      "beam_type": "polychromatic",
+      "mono_energy_kev": 80.0,
+      "mono_photon_count": 1000,
+      "poly_tube_voltage_kv": 120.0,
+      "poly_energy_bins": 20,
+      "poly_min_energy_kev": 20.0,
+      "poly_anode_material": "W",
+      "poly_total_photons": 40000,
+      "filters": [
+        {
+          "material": "Al",
+          "thickness": 1.0,
+          "unit": "mm"
+        }
+      ]
+    },
+    "detector": {
+      "position": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "up_vector": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "rows": 256,
+      "cols": 256,
+      "pixel_size_x": 1.09,
+      "pixel_size_y": 1.09,
+      "pixel_size_unit": "mm"
+    },
+    "acquisition": {
+      "num_projections": 180,
+      "total_angle_deg": 360.0,
+      "rotation_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output_format": "uint16",
+      "sinogram_row": null,
+      "apply_poisson_noise": true,
+      "photon_noise_scale": 30000.0
+    }
+  },
+  "execution_summary": {
+    "duration_seconds": 9.23,
+    "projections_per_second": 19.5,
+    "num_projections": 180,
+    "sinogram_slice_row": 128,
+    "beam_type": "polychromatic",
+    "energy_bins": [
+      [
+        22.5,
+        838
+      ],
+      [
+        27.5,
+        2596
+      ],
+      [
+        32.5,
+        3541
+      ],
+      [
+        37.5,
+        3551
+      ],
+      [
+        42.5,
+        3364
+      ],
+      [
+        47.5,
+        3151
+      ],
+      [
+        52.5,
+        2934
+      ],
+      [
+        57.5,
+        3804
+      ],
+      [
+        62.5,
+        2500
+      ],
+      [
+        67.5,
+        2853
+      ],
+      [
+        72.5,
+        2065
+      ],
+      [
+        77.5,
+        1848
+      ],
+      [
+        82.5,
+        1630
+      ],
+      [
+        87.5,
+        1413
+      ],
+      [
+        92.5,
+        1195
+      ],
+      [
+        97.5,
+        978
+      ],
+      [
+        102.5,
+        761
+      ],
+      [
+        107.5,
+        543
+      ],
+      [
+        112.5,
+        326
+      ],
+      [
+        117.5,
+        109
+      ]
+    ],
+    "poisson_noise_enabled": true,
+    "loaded_mesh_parts": [
+      {
+        "label": "Welsh_Dragon",
+        "stl_path": "D:\\Anaconda\\envs\\ct-project\\Lib\\site-packages\\gvxrPython3\\_gvxrPython3\\welsh-dragon-small.stl",
+        "material_type": "element",
+        "material": "Al",
+        "density": 2.7,
+        "bounding_box_cm": [
+          -3.4227383136749268,
+          -7.755621433258057,
+          -6.221707344055176,
+          3.4227378368377686,
+          7.755621433258057,
+          6.221704006195068
+        ]
+      }
+    ]
+  }
+}

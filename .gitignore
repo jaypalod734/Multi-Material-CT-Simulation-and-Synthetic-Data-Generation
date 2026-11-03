@@ -5,8 +5,8 @@ __pycache__/
 
 # Runtime and temporary simulation files
 temp_run_config.json
-output/
-runs/
+/output/
+/runs/
 *.log
 
 # Virtual environments

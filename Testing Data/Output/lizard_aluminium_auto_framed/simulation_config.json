@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-10-19T23:03:31.898955",
+  "configuration": {
+    "output_dir": "D:\\CT_Project\\output\\lizard_aluminium_auto_framed",
+    "parts": [
+      {
+        "label": "Lizard_Aluminium",
+        "stl_path": "D:\\CT_Project\\lizard.stl",
+        "material_type": "element",
+        "material_identifier": "Al",
+        "density": 2.7,
+        "unit_length": "mm",
+        "center_mesh": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "translate": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": null
+      }
+    ],
+    "source": {
+      "position": [
+        -40.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "source_shape": "point",
+      "beam_type": "monochromatic",
+      "mono_energy_kev": 80.0,
+      "mono_photon_count": 1000,
+      "poly_tube_voltage_kv": 100.0,
+      "poly_energy_bins": 25,
+      "poly_min_energy_kev": 20.0,
+      "poly_anode_material": "W",
+      "poly_total_photons": 50000,
+      "filters": []
+    },
+    "detector": {
+      "position": [
+        15.0,
+        0.0,
+        0.0
+      ],
+      "position_unit": "cm",
+      "up_vector": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "rows": 256,
+      "cols": 256,
+      "pixel_size_x": 1.38,
+      "pixel_size_y": 1.38,
+      "pixel_size_unit": "mm"
+    },
+    "acquisition": {
+      "num_projections": 90,
+      "total_angle_deg": 360.0,
+      "rotation_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "output_format": "uint16",
+      "sinogram_row": null,
+      "apply_poisson_noise": false,
+      "photon_noise_scale": 50000.0
+    }
+  },
+  "execution_summary": {
+    "duration_seconds": 3.16,
+    "projections_per_second": 28.48,
+    "num_projections": 90,
+    "sinogram_slice_row": 128,
+    "beam_type": "monochromatic",
+    "energy_bins": [
+      [
+        80.0,
+        1000
+      ]
+    ],
+    "poisson_noise_enabled": false,
+    "loaded_mesh_parts": [
+      {
+        "label": "Lizard_Aluminium",
+        "stl_path": "D:\\CT_Project\\lizard.stl",
+        "material_type": "element",
+        "material": "Al",
+        "density": 2.7,
+        "bounding_box_cm": [
+          -3.791034698486328,
+          -10.000683784484863,
+          -1.3284519910812378,
+          3.791034698486328,
+          10.000683784484863,
+          1.3284519910812378
+        ]
+      }
+    ]
+  }
+}
