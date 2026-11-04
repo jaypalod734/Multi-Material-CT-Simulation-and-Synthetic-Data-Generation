@@ -9,6 +9,12 @@ temp_run_config.json
 /runs/
 *.log
 
+# STL meshes and testing datasets
+*.stl
+sample_stls/
+Testing Data/
+uploaded_stls/
+
 # Virtual environments
 .env
 .venv

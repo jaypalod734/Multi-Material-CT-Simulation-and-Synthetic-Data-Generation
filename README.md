@@ -60,14 +60,9 @@ An interactive, high-fidelity X-ray Computed Tomography (CT) simulation and synt
 
 ```
 ├── .streamlit/             # Streamlit configuration
-├── sample_stls/            # Sample multi-material phantom STL meshes
-├── Testing Data/           # Test dataset collection
-│   ├── Output/             # Sample CT simulation outputs (TIFF stacks, sinograms, configs)
-│   └── STL files/          # Additional test STL phantoms and meshes
 ├── app.py                  # Main Streamlit application
 ├── config.py               # Simulation configuration dataclasses
 ├── generate_sample_stls.py # Generator for multi-material calibration phantoms
-├── lizard.stl              # Sample biological mesh
 ├── materials_db.json       # Predefined materials database
 ├── mesh_manager.py         # Mesh transformation and material assignment
 ├── output_manager.py       # TIFF stack, sinogram, and metadata saving
